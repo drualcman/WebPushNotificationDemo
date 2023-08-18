@@ -23,14 +23,14 @@ public class WebPushService : IAsyncDisposable
         }
     }
 
-    public async Task<Pushsubscrition> GetSubscriptionAsync()
+    public async Task<PushSubscrition> GetSubscriptionAsync()
     {
-        Pushsubscrition subscription = default;
+        PushSubscrition subscription = default;
 
         try
         {
             IJSObjectReference module = await ModuleTask.Value;
-            subscription = await module.InvokeAsync<Pushsubscrition>("getSubscription", ServerPublicKey);
+            subscription = await module.InvokeAsync<PushSubscrition>("getSubscription", ServerPublicKey);
         }
         catch(Exception ex)
         {

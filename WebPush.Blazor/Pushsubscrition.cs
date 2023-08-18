@@ -1,6 +1,6 @@
 ﻿namespace WebPush.Blazor;
 
-public class Pushsubscrition
+public class PushSubscrition
 {
     public string Endpoint { get; set; }
     public string P256dh { get; set; }
