@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj" />
+    <ProjectReference Include="..\WebPush.Server\WebPush.Server.csproj" />
   </ItemGroup>
 
 </Project>

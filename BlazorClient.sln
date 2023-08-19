@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorClient", "BlazorClient\BlazorClient.csproj", "{A8EDAF38-8E62-4D9F-B597-D8785DB9434C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorClient", "BlazorClient\BlazorClient.csproj", "{A8EDAF38-8E62-4D9F-B597-D8785DB9434C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushServerApi", "PushServerApi\PushServerApi.csproj", "{8472510B-531A-466D-9C16-40008B3EA2C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PushServerApi", "PushServerApi\PushServerApi.csproj", "{8472510B-531A-466D-9C16-40008B3EA2C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{19976535-FF4A-4160-9AAE-E4B4A9A23AB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{19976535-FF4A-4160-9AAE-E4B4A9A23AB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPush.Blazor", "WebPush.Blazor\WebPush.Blazor.csproj", "{8113E40D-4C6C-4CEA-94F5-CDD4649AD7D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebPush.Blazor", "WebPush.Blazor\WebPush.Blazor.csproj", "{8113E40D-4C6C-4CEA-94F5-CDD4649AD7D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPush.Server", "WebPush.Server\WebPush.Server.csproj", "{B09D707E-A49C-4CB2-B63B-FF01C2F2CCF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8113E40D-4C6C-4CEA-94F5-CDD4649AD7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8113E40D-4C6C-4CEA-94F5-CDD4649AD7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8113E40D-4C6C-4CEA-94F5-CDD4649AD7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09D707E-A49C-4CB2-B63B-FF01C2F2CCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09D707E-A49C-4CB2-B63B-FF01C2F2CCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09D707E-A49C-4CB2-B63B-FF01C2F2CCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09D707E-A49C-4CB2-B63B-FF01C2F2CCF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
