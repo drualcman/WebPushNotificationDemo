@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entiti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebPush.Blazor", "WebPush.Blazor\WebPush.Blazor.csproj", "{8113E40D-4C6C-4CEA-94F5-CDD4649AD7D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPush.Server", "WebPush.Server\WebPush.Server.csproj", "{B09D707E-A49C-4CB2-B63B-FF01C2F2CCF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebPush.Server", "WebPush.Server\WebPush.Server.csproj", "{B09D707E-A49C-4CB2-B63B-FF01C2F2CCF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

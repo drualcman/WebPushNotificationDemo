@@ -38,7 +38,6 @@ internal class PayloadEncryptor
             Payload = encryptedPayload,
             PublicKey = serverPublicKey
         };
-
     }
 
     private static byte[] AddPaddingToInput(byte[] data)
@@ -69,7 +68,7 @@ internal class PayloadEncryptor
     private static byte[] GetContext(byte[] p256DHBytes, byte[] localPublicKey)
     {
         List<byte> context = new List<byte>();
-        context.AddRange(Encoding.UTF8.GetBytes("P-250\0"));
+        context.AddRange(Encoding.UTF8.GetBytes("P-256\0"));
         context.AddRange(ConvertInt(p256DHBytes.Length));
         context.AddRange(p256DHBytes);
         context.AddRange(ConvertInt(localPublicKey.Length));

@@ -1,0 +1,36 @@
+﻿@page "/"
+<h3>Subscriptin Page</h3>
+
+<button @onclick=GetSubscription>Get Subscription</button>
+<button @onclick=SendSubscription>Send Subscription to server</button>
+<button @onclick=RequestExampleNotification>Request example notification</button>
+
+@if(Subscription != default)
+{
+    <div>
+        <div>
+            <div>Endpoint</div>
+            <div>@Subscription.Endpoint</div>
+        </div>   
+        <div>
+            <div>P256dh</div>
+            <div>@Subscription.P256dh</div>
+        </div>   
+        <div>
+            <div>Auth</div>
+            <div>@Subscription.Auth</div>
+        </div>   
+        <div>
+            <div>Is new subscription</div>
+            <div>@Subscription.IsNewSubscription</div>
+        </div>
+    </div>
+}
+
+@if(!string.IsNullOrWhiteSpace(Message))
+{
+    <div>
+        @Message
+    </div>
+}
+
